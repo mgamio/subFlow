@@ -39,6 +39,7 @@ any chapter with the next one.
 | `chapter-02-object-oriented-design` | 2. Object-Oriented Design: Protecting Your Rules |
 | `chapter-03-solid-principles` | 3. SOLID Principles |
 | `chapter-04-design-for-testability` | 4. Design for Testability |
+| `chapter-05-when-principles-conflict` | 5. When Principles Conflict |
 
 Inside each module:
 
@@ -49,6 +50,10 @@ Inside each module:
 
 The tests in `src/test/java` are the examples from the book, plus tests that prove
 each refactoring kept the original behavior.
+
+## Decision records
+
+Significant design decisions are recorded in [`docs/decisions/`](docs/decisions/) (introduced in Chapter 5).
 
 ## License
 

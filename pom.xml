@@ -15,6 +15,7 @@
     <module>chapter-02-object-oriented-design</module>
     <module>chapter-03-solid-principles</module>
     <module>chapter-04-design-for-testability</module>
+    <module>chapter-05-when-principles-conflict</module>
   </modules>
 
   <properties>

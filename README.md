@@ -29,6 +29,7 @@ any chapter with the next one.
 |---|---|
 | `chapter-01-core-design-principles` | 1. Core Design Principles |
 | `chapter-02-object-oriented-design` | 2. Object-Oriented Design: Protecting Your Rules |
+| `chapter-03-solid-principles` | 3. SOLID Principles |
 
 Inside each module:
 

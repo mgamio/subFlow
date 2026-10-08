@@ -20,6 +20,14 @@ cd subFlow
 mvn test
 ```
 
+## Optional: mutation testing
+
+```
+mvn -P mutation -pl chapter-04-design-for-testability test
+```
+
+The report is written to `target/pit-reports/index.html` (see Chapter 4).
+
 ## How the code is organized
 
 Each chapter is a separate Maven module, so you can compare SubFlow at the end of
@@ -30,6 +38,7 @@ any chapter with the next one.
 | `chapter-01-core-design-principles` | 1. Core Design Principles |
 | `chapter-02-object-oriented-design` | 2. Object-Oriented Design: Protecting Your Rules |
 | `chapter-03-solid-principles` | 3. SOLID Principles |
+| `chapter-04-design-for-testability` | 4. Design for Testability |
 
 Inside each module:
 

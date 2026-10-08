@@ -14,6 +14,7 @@
     <module>chapter-01-core-design-principles</module>
     <module>chapter-02-object-oriented-design</module>
     <module>chapter-03-solid-principles</module>
+    <module>chapter-04-design-for-testability</module>
   </modules>
 
   <properties>
@@ -50,4 +51,48 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <!-- Optional: mutation testing with PIT (see Chapter 4).
+       Run: mvn -P mutation -pl chapter-04-design-for-testability test -->
+  <profiles>
+    <profile>
+      <id>mutation</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.pitest</groupId>
+            <artifactId>pitest-maven</artifactId>
+            <version>1.16.1</version>
+            <dependencies>
+              <dependency>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-junit5-plugin</artifactId>
+                <version>1.2.1</version>
+              </dependency>
+            </dependencies>
+            <configuration>
+              <targetClasses>
+                <param>com.subflow.domain.*</param>
+                <param>com.subflow.service.*</param>
+                <param>com.subflow.payment.*</param>
+              </targetClasses>
+              <outputFormats>
+                <param>HTML</param>
+              </outputFormats>
+              <timestampedReports>false</timestampedReports>
+            </configuration>
+            <executions>
+              <execution>
+                <id>mutation-coverage</id>
+                <phase>test</phase>
+                <goals>
+                  <goal>mutationCoverage</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 </project>

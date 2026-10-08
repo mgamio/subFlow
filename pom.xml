@@ -12,6 +12,7 @@
 
   <modules>
     <module>chapter-01-core-design-principles</module>
+    <module>chapter-02-object-oriented-design</module>
   </modules>
 
   <properties>

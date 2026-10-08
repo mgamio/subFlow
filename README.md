@@ -28,6 +28,7 @@ any chapter with the next one.
 | Module | Book chapter |
 |---|---|
 | `chapter-01-core-design-principles` | 1. Core Design Principles |
+| `chapter-02-object-oriented-design` | 2. Object-Oriented Design: Protecting Your Rules |
 
 Inside each module:
 

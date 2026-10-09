@@ -40,6 +40,7 @@ any chapter with the next one.
 | `chapter-03-solid-principles` | 3. SOLID Principles |
 | `chapter-04-design-for-testability` | 4. Design for Testability |
 | `chapter-05-when-principles-conflict` | 5. When Principles Conflict |
+| `chapter-06-designing-boundaries` | 6. Designing Boundaries: Domain, Data and APIs |
 
 Inside each module:
 

@@ -41,6 +41,7 @@ any chapter with the next one.
 | `chapter-04-design-for-testability` | 4. Design for Testability |
 | `chapter-05-when-principles-conflict` | 5. When Principles Conflict |
 | `chapter-06-designing-boundaries` | 6. Designing Boundaries: Domain, Data and APIs |
+| `chapter-07-requirements-to-architecture` | 7. From Requirements to Architecture |
 
 Inside each module:
 

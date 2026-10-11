@@ -8,3 +8,6 @@ and what it costs. Introduced in Chapter 5; Chapter 7 explains the format.
 | 0001 | [The mobile app gets prices from the server](0001-mobile-app-gets-prices-from-the-server.md) | Accepted |
 | 0002 | [Record invoice line kinds before VAT](0002-record-invoice-line-kinds-before-vat.md) | Accepted |
 | 0003 | [Filter renewal candidates in SQL](0003-filter-renewal-candidates-in-sql.md) | Accepted |
+| 0004 | [Stay a modular monolith](0004-modular-monolith.md) | Accepted |
+| 0005 | [Fail over card charges to CardHub](0005-fail-over-to-cardhub.md) | Accepted |
+| 0006 | [Pricing rules as data](0006-pricing-rules-as-data.md) | Accepted |

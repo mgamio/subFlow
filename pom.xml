@@ -18,6 +18,7 @@
     <module>chapter-05-when-principles-conflict</module>
     <module>chapter-06-designing-boundaries</module>
     <module>chapter-07-requirements-to-architecture</module>
+    <module>chapter-08-communicating-design</module>
   </modules>
 
   <properties>

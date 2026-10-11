@@ -1,0 +1,9 @@
+%% The life of a subscription. SubscriptionStateDiagramTest checks every
+%% transition below against Subscription.activate() and cancel().
+stateDiagram-v2
+  [*] --> TRIAL : free trial signup
+  [*] --> ACTIVE : paid signup
+  TRIAL --> ACTIVE : activate()
+  TRIAL --> CANCELED : cancel()
+  ACTIVE --> CANCELED : cancel()
+  CANCELED --> [*]

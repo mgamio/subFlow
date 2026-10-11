@@ -1,0 +1,16 @@
+%% A charge while PayFast is down and the circuit breaker is still closed.
+sequenceDiagram
+  participant C as CheckoutService
+  participant F as FailoverPaymentCharger
+  participant B as CircuitBreaker
+  participant P as PayFast (with retries)
+  participant H as CardHub
+  C->>F: charge(request)
+  F->>B: allowsRequest()
+  B-->>F: true
+  F->>P: charge(request)
+  P-->>F: PaymentProviderUnavailableException
+  F->>B: recordFailure()
+  F->>H: charge(request)
+  H-->>F: payment
+  F-->>C: payment

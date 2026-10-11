@@ -19,6 +19,7 @@
     <module>chapter-06-designing-boundaries</module>
     <module>chapter-07-requirements-to-architecture</module>
     <module>chapter-08-communicating-design</module>
+    <module>chapter-09-case-studies</module>
   </modules>
 
   <properties>

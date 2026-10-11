@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>dev.codersite.subflow</groupId>
+    <artifactId>subflow-parent</artifactId>
+    <version>2.0.0</version>
+  </parent>
+
+  <!-- SubFlow does not change in this chapter; its latest version is in
+       chapter-08-communicating-design. This module holds the three case studies. -->
+  <artifactId>chapter-09-case-studies</artifactId>
+  <name>Chapter 9 - Case Studies</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

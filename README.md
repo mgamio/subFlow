@@ -43,6 +43,7 @@ any chapter with the next one.
 | `chapter-06-designing-boundaries` | 6. Designing Boundaries: Domain, Data and APIs |
 | `chapter-07-requirements-to-architecture` | 7. From Requirements to Architecture |
 | `chapter-08-communicating-design` | 8. Communicating Design: UML and Beyond |
+| `chapter-09-case-studies` | 9. Case Studies: Three Systems from a Blank Page |
 
 Inside each module:
 

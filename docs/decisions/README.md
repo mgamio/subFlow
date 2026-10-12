@@ -1,7 +1,8 @@
 # Decision records
 
 Short records of SubFlow's significant design decisions: what we decided, why,
-and what it costs. Introduced in Chapter 5; Chapter 7 explains the format.
+and what it costs. Introduced in Chapter 5; Chapter 7 explains the format;
+Chapter 10 shows how to record a disagreement (0007).
 
 | # | Decision | Status |
 |---|---|---|
@@ -11,3 +12,4 @@ and what it costs. Introduced in Chapter 5; Chapter 7 explains the format.
 | 0004 | [Stay a modular monolith](0004-modular-monolith.md) | Accepted |
 | 0005 | [Fail over card charges to CardHub](0005-fail-over-to-cardhub.md) | Accepted |
 | 0006 | [Pricing rules as data](0006-pricing-rules-as-data.md) | Accepted |
+| 0007 | [A customer pays the lowest price they qualify for](0007-customers-pay-the-lowest-price.md) | Accepted |

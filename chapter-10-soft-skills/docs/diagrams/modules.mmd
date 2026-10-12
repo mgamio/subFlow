@@ -1,0 +1,12 @@
+%% SubFlow modules and their dependencies.
+%% Every module also uses domain; those arrows are left out to keep the
+%% picture readable. ModuleDiagramTest fails if this file and the code disagree.
+flowchart TD
+  app --> payment
+  app --> service
+  api --> service
+  web --> service
+  payment --> service
+  persistence --> service
+  notification --> service
+  service --> domain

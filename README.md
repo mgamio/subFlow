@@ -44,6 +44,7 @@ any chapter with the next one.
 | `chapter-07-requirements-to-architecture` | 7. From Requirements to Architecture |
 | `chapter-08-communicating-design` | 8. Communicating Design: UML and Beyond |
 | `chapter-09-case-studies` | 9. Case Studies: Three Systems from a Blank Page |
+| `chapter-10-soft-skills` | 10. Soft Skills for Design Decisions |
 
 Inside each module:
 

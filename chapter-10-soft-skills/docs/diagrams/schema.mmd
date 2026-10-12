@@ -1,0 +1,44 @@
+%% Key columns only, drawn from the SQL in com.subflow.persistence.
+erDiagram
+  customers ||--o{ subscriptions : has
+  subscriptions ||--o{ payments : "paid by"
+  subscriptions ||--o{ invoices : "billed by"
+  customers {
+    BIGINT id PK
+    VARCHAR email UK
+  }
+  subscriptions {
+    BIGINT id PK
+    BIGINT customer_id FK
+    VARCHAR plan
+    VARCHAR cycle
+    VARCHAR status
+    DATE start_date
+    DATE end_date
+  }
+  payments {
+    VARCHAR id PK
+    BIGINT subscription_id FK
+    VARCHAR provider
+    DECIMAL amount
+    CHAR currency
+    DATE payment_date
+  }
+  invoices {
+    BIGINT id PK
+    BIGINT subscription_id FK
+    VARCHAR customer_email
+    DECIMAL total
+    CHAR currency
+    DATE issued_on
+  }
+  campaigns {
+    VARCHAR name PK
+    DECIMAL annual_discount
+    DATE first_day
+    DATE last_day
+  }
+  processed_events {
+    VARCHAR event_id PK
+    TIMESTAMP processed_at
+  }

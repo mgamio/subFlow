@@ -20,6 +20,7 @@
     <module>chapter-07-requirements-to-architecture</module>
     <module>chapter-08-communicating-design</module>
     <module>chapter-09-case-studies</module>
+    <module>chapter-10-soft-skills</module>
   </modules>
 
   <properties>

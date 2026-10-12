@@ -65,6 +65,12 @@ Significant design decisions are recorded in [`docs/decisions/`](docs/decisions/
 Chapter 11 has no module. Its last exercise, family plans, is in
 [`docs/capstone.md`](docs/capstone.md): start from `chapter-10-soft-skills`.
 
+## Design review checklist
+
+[`docs/design-review-checklist.md`](docs/design-review-checklist.md) is the book's
+one-page design review (Appendix A): 24 questions to ask before you start a change,
+send a pull request, or review a design.
+
 ## License
 
 MIT — see `LICENSE`.

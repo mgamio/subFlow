@@ -60,6 +60,11 @@ each refactoring kept the original behavior.
 
 Significant design decisions are recorded in [`docs/decisions/`](docs/decisions/) (introduced in Chapter 5).
 
+## Capstone exercise
+
+Chapter 11 has no module. Its last exercise, family plans, is in
+[`docs/capstone.md`](docs/capstone.md): start from `chapter-10-soft-skills`.
+
 ## License
 
 MIT — see `LICENSE`.
